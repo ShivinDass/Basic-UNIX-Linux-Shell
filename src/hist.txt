@@ -1,0 +1,5 @@
+history
+cat -n rm.c
+cat -e ls.c
+cat -n -e rm.c ls.c
+exit

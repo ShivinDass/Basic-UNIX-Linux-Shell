@@ -1,0 +1,45 @@
+echo l   k
+echo -n l   k
+echo -n -E l   k
+echo "l   k"
+echo -n "l   k"
+echo -E "l    k"
+exit
+
+
+pwd
+mkdir -v F1 F2
+cd F1
+pwd
+cd ..
+ls
+ls -a F2
+ls -i
+ls -a -i
+exit
+
+
+mkdir -m 775 -v F3
+mkdir F3 F4 F5
+rm -d F3 F5
+rm -d -i F4
+date
+date -u
+date -R
+date -u -R
+exit
+
+
+
+history
+history -c
+history -s OK
+cat
+yes
+no
+exit
+cat -n rm.c
+cat -e ls.c
+cat -n -e rm.c ls.c
+exit
+
